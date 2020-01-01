@@ -3,7 +3,7 @@
         "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
 <beans>
-    <bean id="tringle" class="com.org.aditya.Tringle">
-
+    <bean id="tringle" class="com.org.aditya.Triangle">
+        <property name="type" value="Equilateral"></property>
     </bean>
 </beans>
